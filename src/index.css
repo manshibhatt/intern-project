@@ -1,0 +1,80 @@
+.flex{
+  display: flex;
+} 
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+h1{
+
+}
+
+.gap-2{
+  gap: 2rem;
+}
+
+button{
+  border: none;
+  background: white;
+}
+body, button {
+  font-family: 'Sora', sans-serif;
+}
+.clr-1{
+  color: #3D65F4;
+}
+.clr-2{
+  color: #9CAACE;
+}
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+.items-center{
+  align-items: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.gap-half{
+  gap:0.5rem;
+}
+.clr-3{
+  color: #FF7324;
+
+}
+.clr-4{
+  background: #FFF5DC;
+
+}
+.items-end{
+  align-items: flex-end;
+}
+.space-between{
+  justify-content: space-around;
+}
+.clr-5{
+  color: #182B68;
+}
+.circle{
+  border-radius: 50%;
+}
+.gap-1{
+  gap: 1rem;
+}
+.grow{
+flex-grow: 1;
+}
