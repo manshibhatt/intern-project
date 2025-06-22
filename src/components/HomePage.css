@@ -53,13 +53,12 @@ linear-gradient(321.06deg, #182B68 -4.53%, #2746AA 32.68%, #3D65F4 72.04%);
     border-radius: 5px;
   
     background: 
-      linear-gradient(#fff, #fff) padding-box, /* white background inside */
-      linear-gradient(96.65deg, #9676F1 36.24%, #3D65F4 63.77%, #FF7B7B 124.95%) border-box; /* gradient border */
+      linear-gradient(#fff, #fff) padding-box, 
+      linear-gradient(96.65deg, #9676F1 36.24%, #3D65F4 63.77%, #FF7B7B 124.95%) border-box; 
     border: 1px solid transparent;
-    display: inline-block; /* fit the border around the text */
+    display: inline-block; 
   }
 
-  /* start */
   .list-container {
     padding: 1rem;
     padding: 1.5rem;
@@ -108,9 +107,9 @@ linear-gradient(321.06deg, #182B68 -4.53%, #2746AA 32.68%, #3D65F4 72.04%);
 
   .horizontal-connector {
     position: absolute;
-    top: 0.75rem; /* vertically align with content */
-    left: -1.5rem; /* adjust to connect with vertical line */
-    width: 1.5rem; /* length of the connector */
+    top: 0.75rem; 
+    left: -1.5rem; 
+    width: 1.5rem;
     height: 2px;
     background-color: #c7d2fe;
     z-index: 1;
@@ -143,7 +142,7 @@ letter-spacing: 0.2px;
   
   .item-default {
     background-color: #f9fafb;
-    color: #1f2937; /* gray-800 */
+    color: #1f2937; 
     border-color: #e5e7eb;
   }
   
@@ -202,7 +201,7 @@ letter-spacing: 0.2px;
   .switch-static {
     width: 40px;
     height: 20px;
-    background-color: #ccc; /* grey background */
+    background-color: #ccc; 
     border-radius: 999px;
     position: relative;
   }
@@ -214,7 +213,7 @@ letter-spacing: 0.2px;
     border-radius: 50%;
     position: absolute;
     top: 2px;
-    left: 22px; /* shifted to right */
+    left: 22px; 
   }
   
 
@@ -242,8 +241,8 @@ padding: 0.3rem;
     flex-wrap: wrap;
     align-items: center;
     gap: 0.5rem;
-    max-width: 200px; /* Limit width if needed */
-    height: 100%; /* match parent height */
+    max-width: 200px; 
+    height: 100%; 
   }
   
   .streak img{
@@ -298,7 +297,7 @@ vertical-align: middle;
     border-radius: 5px;
   
     background: 
-      linear-gradient(#fff, #fff) padding-box, /* white background inside */
+      linear-gradient(#fff, #fff) padding-box, 
       linear-gradient(96.65deg, #9676F1 36.24%, #3D65F4 63.77%, #FF7B7B 124.95%) border-box; /* gradient border */
     border: 1px solid transparent;
     justify-content: center;
@@ -401,14 +400,14 @@ text-align: justify;
     padding: 20px;
     border-radius: 12px;
     font-family: 'Inter', sans-serif;
-    max-width: 800px; /* Adjust as needed */
+    max-width: 800px; 
     margin: 20px auto;
   }
 
 
   .resources-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Default to single column */
+    grid-template-columns: 1fr 1fr; 
     gap: 15px;
   }
   .grid-separator{
@@ -417,7 +416,7 @@ text-align: justify;
 
   .grid-separator {
     width: 1px;
-    background-color: #d1d5db; /* Light gray line */
+    background-color: #d1d5db; 
     height: 100%;
     justify-self: center;
     display: none; 
@@ -436,18 +435,18 @@ text-align: justify;
     font-weight: 500;
     color: #fff;
     margin-right: 10px;
-    min-width: 80px; /* Ensure tags have consistent width */
+    min-width: 80px; 
     text-align: center;
   }
 
   .tag-blue {
-    background-color: #3D65F4; /* Tailwind blue-500 */
+    background-color: #3D65F4; 
   }
   .tag-purple {
-    background-color: #9676F1; /* Tailwind purple-500 */
+    background-color: #9676F1;
   }
   .tag-red {
-    background-color: #FF7B7B; /* Tailwind red-500 */
+    background-color: #FF7B7B; 
   }
 
   .resource-label {
@@ -490,14 +489,14 @@ color: #3D65F4;
     background-color: #c7d2fe;
   }
 
-  @media (min-width: 118.75rem) { /* Equivalent to 1900px */
+  @media (min-width: 118.75rem) { 
     .whole {
-        max-width: 86.8125rem; /* Calculated total width: Navbar + rest-page content + padding */
-        margin-left: auto; /* Centers the whole block horizontally */
-        margin-right: auto; /* Centers the whole block horizontally */
+        max-width: 86.8125rem; 
+        margin-left: auto; 
+        margin-right: auto; 
     }
     .rest-page {
-        max-width: 81rem; /* left(35rem) + right(40rem) + bottom-gap(2rem) + rest-page-padding(2*2rem) = 81rem */
+        max-width: 81rem; 
         margin-left: 0;
         margin-right: 0;
         padding: 1rem 2rem;
