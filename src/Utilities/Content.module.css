@@ -1,0 +1,75 @@
+.bottom-1 {
+    border: 0.0625rem solid #B7C7FF;
+    padding: 1rem 0rem;
+  }
+  
+  .bottom-2 {
+    padding: 2.18rem 6rem 1rem 6.125rem;
+  }
+  
+  .bottom-2 p {
+    font-family: Sora;
+    font-weight: 400;
+    font-size: 0.8125rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.0125rem;
+    color: #182B68;
+    margin-left: 0.5rem;
+  }
+  
+  .space {
+    margin-left: 0.5rem;
+    padding: 0rem 0.75rem;
+  }
+  
+  .term {
+    color: #182B68;
+    font-family: Sora;
+    font-weight: 700;
+    font-size: 0.8125rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.0125rem;
+    text-align: justify;
+  }
+  
+  .definition {
+    font-family: Sora;
+    font-weight: 400;
+    font-size: 0.8125rem;
+    line-height: 1.625rem;
+    letter-spacing: 0.0125rem;
+    text-align: justify;
+  }
+  
+  .mark {
+    background: #EDFDF9;
+    border-radius: 0.625rem;
+  }
+  
+  .mark span {
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 0.625rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.015625rem;
+    color: #27AE7A;
+  }
+  
+  .switch-static {
+    width: 2.5rem;
+    height: 1.25rem;
+    background-color: #ccc;
+    border-radius: 999px;
+    position: relative;
+  }
+  
+  .circle-static {
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.125rem;
+    left: 1.375rem;
+  }
+  
